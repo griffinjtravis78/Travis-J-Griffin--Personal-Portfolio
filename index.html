@@ -1,1247 +1,1839 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travis John Griffin, MPA - Professional Portfolio</title>
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        .bg-primary { background-color: #04067A; }
-        .text-primary { color: #04067A; }
-        .border-primary { border-color: #04067A; }
-        .bg-accent { background-color: #D1A706; }
-        .text-accent { color: #D1A706; }
-        .border-accent { border-color: #D1A706; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travis John Griffin, MPA - Professional Portfolio</title>
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+.bg-primary { background-color: #04067A; }
+.text-primary { color: #04067A; }
+.border-primary { border-color: #04067A; }
+.bg-accent { background-color: #D1A706; }
+.text-accent { color: #D1A706; }
+.border-accent { border-color: #D1A706; }
+</style>
 </head>
 <body class="bg-slate-100 text-slate-900 font-sans leading-relaxed py-6 px-4">
-
-    <!-- Outer Double-Bordered Container -->
-    <div class="max-w-5xl mx-auto border-4 border-accent p-1 bg-accent">
-        <div class="border-4 border-primary bg-white shadow-2xl">
-
-            <!-- Top Banner -->
-            <header class="bg-primary text-white py-10 px-8 border-b-4 border-accent relative">
-                <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 text-center md:text-left">
-                    <!-- Circular Profile Picture Cutout with Gold Outline -->
-                    <div class="w-36 h-36 rounded-full bg-slate-800 border-4 border-accent overflow-hidden flex-shrink-0 shadow-lg flex items-center justify-center text-slate-300 text-sm">
-                        <img src="Travis griffin.jpg" alt="Travis John Griffin, MPA" class="w-full h-full object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-                        <span style="display:none;" class="text-center p-2 text-white font-medium">Your Photo</span>
-                    </div>
-                    
-                    <!-- Header Text (White Font) -->
-                    <div>
-                        <h1 class="text-4xl font-extrabold tracking-tight text-white">Travis John Griffin, MPA</h1>
-                        <p class="text-lg text-slate-200 mt-1 uppercase tracking-wider font-semibold">Professional Portfolio & Credentials</p>
-                        
-                        <!-- Contact & Location Info -->
-                        <div class="mt-4 flex flex-wrap justify-center md:justify-start gap-4 text-sm text-white font-medium">
-                            <span class="flex items-center gap-1">📍 Jefferson City, MO & Joplin, MO</span>
-                            <a href="mailto:griffinjtravis78@gmail.com" class="hover:underline">✉ griffinjtravis78@gmail.com</a>
-                            <a href="tel:4174384173" class="hover:underline">📞 417-438-4173</a>
-                        </div>
-                    </div>
-                </div>
-            </header>
-
-            <!-- Main Content Body -->
-            <main class="p-8 space-y-10 bg-white">
-
-                <!-- Military & Preferences Section -->
-                <section class="p-6 rounded-lg border border-slate-200 bg-slate-50">
-                    <h2 class="text-2xl font-bold text-primary border-b-2 border-accent pb-2 mb-4">Military Service & Legal Preferences</h2>
-                    <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 text-slate-800">
-                        <li class="p-4 bg-white rounded border border-slate-200 shadow-sm">
-                            <span class="font-bold text-primary">Veteran Preference:</span> United States Marine Corps, E-3 (Lance Corporal), Honorable Discharge. 
-                            <br><strong class="text-slate-700">Date of Discharge:</strong> August 3, 2000.
-                            <div class="mt-3 flex flex-wrap gap-3 text-sm font-semibold">
-                                <a href="javascript:void(0);" onclick="alert('Due to personal information listed on the DD-214, please request a copy by emailing griffinjtravis78@gmail.com');" class="text-primary hover:text-accent underline">🔗 View DD-214</a>
-                                <a href="School of Infantry.pdf" target="_blank" class="text-primary hover:text-accent underline">🔗 View MCT Certificate</a>
-                                <a href="Redacted USMC.pdf" target="_blank" class="text-primary hover:text-accent underline">🔗 View Supply Course</a>
-                            </div>
-                        </li>
-                        <li class="p-4 bg-white rounded border border-slate-200 shadow-sm">
-                            <span class="font-bold text-primary">Native American Preference:</span> Verified Status (Wyandotte Nation Tribal Citizenship)
-                            <div class="mt-3 text-sm font-semibold">
-                                <a href="IMG_20260929_0004.jpg" target="_blank" class="text-primary hover:text-accent underline">🔗 Verify Tribal ID Card</a>
-                            </div>
-                        </li>
-                    </ul>
-                </section>
-
-                <!-- Volunteer & Civic Service Memberships Section -->
-                <section class="p-6 rounded-lg border border-slate-200 bg-slate-50">
-                    <h2 class="text-2xl font-bold text-primary border-b-2 border-accent pb-2 mb-4">Volunteer & Civic Service Memberships</h2>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-slate-800">
-                        <div class="p-4 bg-white rounded border border-slate-200 shadow-sm">
-                            <h3 class="font-bold text-primary text-lg">Elks USA (Benevolent and Protective Order of Elks)</h3>
-                            <p class="text-slate-700 font-semibold text-sm">Jefferson City MO Lodge #513</p>
-                            <p class="text-xs text-slate-500 font-semibold mt-1">Membership Dues Paid To: 4/1/2027 | Member Years: 2</p>
-                            <div class="mt-3 text-sm font-semibold">
-                                <a href="IMG_20260929_0002.jpg" target="_blank" class="text-primary hover:text-accent underline">🔗 View Elks Member Card</a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Education Section (Reordered) -->
-                <section class="p-6 rounded-lg border border-slate-200 bg-slate-50">
-                    <h2 class="text-2xl font-bold text-primary border-b-2 border-accent pb-2 mb-4">Education & Military Transcripts</h2>
-                    <div class="space-y-6">
-                        <!-- 1. Master's Degree -->
-                        <div class="flex flex-col md:flex-row justify-between items-start md:items-center p-4 bg-white rounded border border-slate-200 shadow-sm">
-                            <div>
-                                <h3 class="text-lg font-bold text-primary">Master of Public Administration (MPA)</h3>
-                                <p class="text-slate-700 font-medium">Walden University</p>
-                                <p class="text-xs text-slate-500 font-semibold">Conferred: November 12, 2023</p>
-                            </div>
-                            <div class="mt-2 md:mt-0">
-                                <a href="MPA.pdf" target="_blank" class="text-sm font-semibold text-primary hover:text-accent underline">🔗 View Diploma</a>
-                            </div>
-                        </div>
-
-                        <!-- 2. Bachelor's Degree -->
-                        <div class="flex flex-col md:flex-row justify-between items-start md:items-center p-4 bg-white rounded border border-slate-200 shadow-sm">
-                            <div>
-                                <h3 class="text-lg font-bold text-primary">Bachelor of Science in Political Science and Public Administration</h3>
-                                <p class="text-slate-700 font-medium">Walden University</p>
-                                <p class="text-xs text-slate-500 font-semibold">Conferred: May 16, 2021</p>
-                            </div>
-                            <div class="mt-2 md:mt-0">
-                                <a href="BS.pdf" target="_blank" class="text-sm font-semibold text-primary hover:text-accent underline">🔗 View Diploma</a>
-                            </div>
-                        </div>
-
-                        <!-- 3. Supply Chain Management Graduate Certification -->
-                        <div class="p-4 bg-white rounded border border-slate-200 shadow-sm flex flex-col md:flex-row justify-between items-start md:items-center">
-                            <div>
-                                <h3 class="text-lg font-bold text-primary">Supply Chain Management Graduate Certification</h3>
-                                <p class="text-slate-700 font-medium">The University of Oklahoma (Spring 2027 Admission)</p>
-                                <p class="text-xs text-slate-500 font-semibold">Expected Graduation: November 2027</p>
-                            </div>
-                            <div class="mt-2 md:mt-0">
-                                <a href="Letter.pdf" target="_blank" class="text-sm font-semibold text-primary hover:text-accent underline">🔗 View Acceptance Letter</a>
-                            </div>
-                        </div>
-
-                        <!-- 4. FEMA Emergency Management Institute -->
-                        <div class="flex flex-col md:flex-row justify-between items-start md:items-center p-4 bg-white rounded border border-slate-200 shadow-sm">
-                            <div>
-                                <h3 class="text-lg font-bold text-primary">FEMA Emergency Management Institute</h3>
-                                <p class="text-slate-700 text-sm">Independent Study Program Transcript (Completed multiple emergency management, ICS, and leadership courses including IS-00100.b, IS-00230.b, and IS-00240.a).</p>
-                            </div>
-                            <div class="mt-2 md:mt-0">
-                                <a href="FEMA Transcript.pdf" target="_blank" class="text-sm font-semibold text-primary hover:text-accent underline">🔗 View FEMA Transcript</a>
-                            </div>
-                        </div>
-
-                        <!-- 5. Joint Services Transcript -->
-                        <div class="flex flex-col md:flex-row justify-between items-start md:items-center p-4 bg-white rounded border border-slate-200 shadow-sm">
-                            <div>
-                                <h3 class="text-lg font-bold text-primary">Joint Services Transcript (JST)</h3>
-                                <p class="text-slate-700 text-sm">United States Marine Corps Academic & Military Training Record</p>
-                            </div>
-                            <div class="mt-2 md:mt-0">
-                                <a href="Joint Services Transcript_2.pdf" target="_blank" class="text-sm font-semibold text-primary hover:text-accent underline">🔗 View JST Transcript</a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Certifications Section (Categorized Accordions) -->
-                <section class="p-6 rounded-lg border border-slate-200 bg-slate-50">
-                    <h2 class="text-2xl font-bold text-primary border-b-2 border-accent pb-2 mb-4">Certifications & Professional Development</h2>
-                    <div class="space-y-4">
-                        <!-- CATEGORY: Human Resources (HR) -->
-                        <details class="group bg-white rounded border border-slate-200 shadow-sm overflow-hidden">
-                            <summary class="flex justify-between items-center p-4 cursor-pointer font-bold text-primary bg-slate-100 hover:bg-slate-200 transition">
-                                <span>Human Resources (HR) & Talent Management</span>
-                                <span class="transition group-open:rotate-180">▼</span>
-                            </summary>
-                            <div class="p-4 space-y-3 border-t border-slate-200">
-                                <details class="group/sub bg-slate-50 rounded border border-slate-200 overflow-hidden">
-                                    <summary class="flex justify-between items-center p-3 cursor-pointer font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
-                                        <span>Workforce Planning & Succession</span>
-                                        <span class="transition group-open/sub:rotate-180">▼</span>
-                                    </summary>
-                                    <div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t border-slate-200 bg-white">
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Human Resources: Strategic Workforce Planning</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Sep 21, 2022</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Human Resources Strategic Workforce Planning 2018.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Succession Planning</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Dec 31, 2025</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Succession Planning.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Strategic Human Resources</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Sep 08, 2022</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Strategic Human Resources.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                    </div>
-                                </details>
-
-                                <details class="group/sub bg-slate-50 rounded border border-slate-200 overflow-hidden">
-                                    <summary class="flex justify-between items-center p-3 cursor-pointer font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
-                                        <span>Diversity, Inclusion & Workplace Culture</span>
-                                        <span class="transition group-open/sub:rotate-180">▼</span>
-                                    </summary>
-                                    <div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t border-slate-200 bg-white">
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Hiring and Supporting Neurodiversity in the Workplace</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Sep 02, 2026</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Hiring and Supporting Neurodiversity in the Workplace 2021 (1).pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Uncovering Your Authentic Self at Work</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: May 15, 2022</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Uncovering Your Authentic Self at Work.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Leading Your Org on a Journey of Allyship</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: May 16, 2022</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Leading Your Org on a Journey of Allyship.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Managing Multiple Generations</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Nov 26, 2019</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Managing Multiple Generations 2014.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                    </div>
-                                </details>
-
-                                <details class="group/sub bg-slate-50 rounded border border-slate-200 overflow-hidden">
-                                    <summary class="flex justify-between items-center p-3 cursor-pointer font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
-                                        <span>Onboarding & Mentorship</span>
-                                        <span class="transition group-open/sub:rotate-180">▼</span>
-                                    </summary>
-                                    <div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t border-slate-200 bg-white">
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Onboarding New Hires as a Manager</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Aug 21, 2022</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Onboarding New Hires as a Manager 2019.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Being a Good Mentor</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Dec 03, 2019</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Being a Good Mentor 2016.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                    </div>
-                                </details>
-                            </div>
-                        </details>
-
-                        <!-- CATEGORY: Leadership & Management -->
-                        <details class="group bg-white rounded border border-slate-200 shadow-sm overflow-hidden">
-                            <summary class="flex justify-between items-center p-4 cursor-pointer font-bold text-primary bg-slate-100 hover:bg-slate-200 transition">
-                                <span>Leadership & Management</span>
-                                <span class="transition group-open:rotate-180">▼</span>
-                            </summary>
-                            <div class="p-4 space-y-3 border-t border-slate-200">
-                                <details class="group/sub bg-slate-50 rounded border border-slate-200 overflow-hidden">
-                                    <summary class="flex justify-between items-center p-3 cursor-pointer font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
-                                        <span>Executive & Strategic Leadership</span>
-                                        <span class="transition group-open/sub:rotate-180">▼</span>
-                                    </summary>
-                                    <div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t border-slate-200 bg-white">
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Executive Leadership</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Jul 08, 2026</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Executive Leadership.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Strategic Leadership: Deploying Intelligent Disobedience</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Sep 14, 2020</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Strategic Leadership Deploying Intelligent Disobedience.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Ken Blanchard on Servant Leadership</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Oct 24, 2020</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Ken Blanchard on Servant Leadership.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Rules for Rising Leaders</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Jun 23, 2022</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Rules for Rising Leaders.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Start with Why: How Great Leaders Inspire Everyone</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: May 21, 2019</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Start with Why How Great Leaders Inspire Everyone to Take Action Blinkist Summary.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                    </div>
-                                </details>
-
-                                <details class="group/sub bg-slate-50 rounded border border-slate-200 overflow-hidden">
-                                    <summary class="flex justify-between items-center p-3 cursor-pointer font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
-                                        <span>People Management & Team Leadership</span>
-                                        <span class="transition group-open/sub:rotate-180">▼</span>
-                                    </summary>
-                                    <div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t border-slate-200 bg-white">
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Make the Move from Individual Contributor to Manager</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Sep 18, 2020</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Make the Move from Individual Contributor to Manager.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Leadership: Practical Skills</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Dec 04, 2019</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Leadership Practical Skills (1).pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Succeeding as a First-Time Tech Manager (2019)</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: May 15, 2025</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Succeeding as a FirstTime Tech Manager 2019.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Leading and Motivating People with Different Personalities</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Aug 14, 2022</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Leading and Motivating People with Different Personalities.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Managing a Cross-Functional Team</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Nov 18, 2019</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Managing a CrossFunctional Team.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Holding Yourself Accountable</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Oct 06, 2021</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Holding Yourself Accountable 2017.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                    </div>
-                                </details>
-
-                                <details class="group/sub bg-slate-50 rounded border border-slate-200 overflow-hidden">
-                                    <summary class="flex justify-between items-center p-3 cursor-pointer font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
-                                        <span>Remote & Hybrid Team Leadership</span>
-                                        <span class="transition group-open/sub:rotate-180">▼</span>
-                                    </summary>
-                                    <div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t border-slate-200 bg-white">
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Managing Virtual & Remote Teams</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Apr 2021</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Managing Virtual Teams.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Leading at a Distance</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Apr 23, 2021</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Leading at a Distance 2019.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Planning for Your Hybrid Organization</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Apr 27, 2021</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Planning for Your Hybrid Organization.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Building Relationships While Working from Home</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Apr 19, 2021</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Building Relationships While Working from Home.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                    </div>
-                                </details>
-                            </div>
-                        </details>
-
-                        <!-- CATEGORY: Project Management -->
-                        <details class="group bg-white rounded border border-slate-200 shadow-sm overflow-hidden">
-                            <summary class="flex justify-between items-center p-4 cursor-pointer font-bold text-primary bg-slate-100 hover:bg-slate-200 transition">
-                                <span>Project Management & Methodologies</span>
-                                <span class="transition group-open:rotate-180">▼</span>
-                            </summary>
-                            <div class="p-4 space-y-3 border-t border-slate-200">
-                                <details class="group/sub bg-slate-50 rounded border border-slate-200 overflow-hidden">
-                                    <summary class="flex justify-between items-center p-3 cursor-pointer font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
-                                        <span>Core Project Management & Scheduling</span>
-                                        <span class="transition group-open/sub:rotate-180">▼</span>
-                                    </summary>
-                                    <div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t border-slate-200 bg-white">
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Project Management Foundations (Sep 2026)</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Sep 01, 2026</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Project Management Foundations.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Project Management Foundations: Budgets</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Jul 08, 2026</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Project Management Foundations Budgets.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Project Management: Preventing Scope Creep</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Jan 14, 2022</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Project Management Preventing Scope Creep.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Leading Projects</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Jan 19, 2020</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Leading Projects.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Primavera P6 Essential Training</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Dec 28, 2019</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Primavera P6 Essential Training.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Scrum: The Basics</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Dec 17, 2019</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Scrum The Basics.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                    </div>
-                                </details>
-
-                                <details class="group/sub bg-slate-50 rounded border border-slate-200 overflow-hidden">
-                                    <summary class="flex justify-between items-center p-3 cursor-pointer font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
-                                        <span>Government & Specialized Project Management</span>
-                                        <span class="transition group-open/sub:rotate-180">▼</span>
-                                    </summary>
-                                    <div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t border-slate-200 bg-white">
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Project Management: Government Projects</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Jan 02, 2020</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Project Management Government Projects.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Getting Started as a Government Project Manager</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Jan 19, 2020</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Getting Started as a Government Project Manager.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Selling Into Industries: Government</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Jan 02, 2020</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Selling Into Industries Government.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                    </div>
-                                </details>
-
-                                <details class="group/sub bg-slate-50 rounded border border-slate-200 overflow-hidden">
-                                    <summary class="flex justify-between items-center p-3 cursor-pointer font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
-                                        <span>Stakeholder & People Skills for PM</span>
-                                        <span class="transition group-open/sub:rotate-180">▼</span>
-                                    </summary>
-                                    <div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t border-slate-200 bg-white">
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Stakeholder Management for Leaders and Managers</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Sep 22, 2026</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Stakeholder Management for Leaders and Managers.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">The Eight Essential People Skills for Project Management</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Nov 05, 2020</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_The Eight Essential People Skills for Project Management Blinkist Summary.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                    </div>
-                                </details>
-                            </div>
-                        </details>
-
-                        <!-- CATEGORY: Quality & Process Improvement -->
-                        <details class="group bg-white rounded border border-slate-200 shadow-sm overflow-hidden">
-                            <summary class="flex justify-between items-center p-4 cursor-pointer font-bold text-primary bg-slate-100 hover:bg-slate-200 transition">
-                                <span>Quality & Process Improvement (Six Sigma & Lean)</span>
-                                <span class="transition group-open:rotate-180">▼</span>
-                            </summary>
-                            <div class="p-4 space-y-3 border-t border-slate-200">
-                                <details class="group/sub bg-slate-50 rounded border border-slate-200 overflow-hidden">
-                                    <summary class="flex justify-between items-center p-3 cursor-pointer font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
-                                        <span>Six Sigma & Lean Methodologies</span>
-                                        <span class="transition group-open/sub:rotate-180">▼</span>
-                                    </summary>
-                                    <div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t border-slate-200 bg-white">
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Six Sigma: Green Belt</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Aug 31, 2026</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Six Sigma Green Belt (1).pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Become a Six Sigma Yellow Belt</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: May 15, 2025</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Become a Six Sigma Yellow Belt.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Six Sigma Foundations</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Oct 13, 2021</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Six Sigma Foundations 2020.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Lean Six Sigma: Analyze, Improve, and Control Tools</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: May 14, 2025</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Lean Six Sigma Analyze Improve and Control Tools.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Lean Six Sigma: Define and Measure Tools</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Dec 03, 2023</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Lean Six Sigma Define and Measure Tools.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Lean Six Sigma Foundations</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Mar 10, 2020</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Lean Six Sigma Foundations.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                    </div>
-                                </details>
-
-                                <details class="group/sub bg-slate-50 rounded border border-slate-200 overflow-hidden">
-                                    <summary class="flex justify-between items-center p-3 cursor-pointer font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
-                                        <span>Operational Excellence & Process Optimization</span>
-                                        <span class="transition group-open/sub:rotate-180">▼</span>
-                                    </summary>
-                                    <div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t border-slate-200 bg-white">
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Operational Excellence Foundations</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Jun 01, 2021</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Operational Excellence Foundations.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Process Improvement Foundations</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: May 20, 2021</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Process Improvement Foundations.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Dealing with the Seven Deadly Wastes</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Jan 08, 2026</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Dealing with the Seven Deadly Wastes.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                    </div>
-                                </details>
-
-                                <details class="group/sub bg-slate-50 rounded border border-slate-200 overflow-hidden">
-                                    <summary class="flex justify-between items-center p-3 cursor-pointer font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
-                                        <span>Problem Solving & Root Cause Analysis</span>
-                                        <span class="transition group-open/sub:rotate-180">▼</span>
-                                    </summary>
-                                    <div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t border-slate-200 bg-white">
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Root Cause Analysis</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Aug 23, 2022</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Root Cause Analysis Getting to the Root of Business Problems.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">A3 Problem Solving for Continuous Improvement</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Dec 07, 2020</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_A3 Problem Solving for Continuous Improvement.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Problem-Solving Techniques</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Aug 21, 2022</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_ProblemSolving Techniques.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Take a More Creative Approach to Problem-Solving</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Mar 21, 2022</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Take a More Creative Approach to ProblemSolving.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                    </div>
-                                </details>
-                            </div>
-                        </details>
-
-                        <!-- CATEGORY: Technical & Analysis -->
-                        <details class="group bg-white rounded border border-slate-200 shadow-sm overflow-hidden">
-                            <summary class="flex justify-between items-center p-4 cursor-pointer font-bold text-primary bg-slate-100 hover:bg-slate-200 transition">
-                                <span>Technical, Software & Analysis</span>
-                                <span class="transition group-open:rotate-180">▼</span>
-                            </summary>
-                            <div class="p-4 space-y-3 border-t border-slate-200">
-                                <details class="group/sub bg-slate-50 rounded border border-slate-200 overflow-hidden">
-                                    <summary class="flex justify-between items-center p-3 cursor-pointer font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
-                                        <span>Data Analytics, Dashboards & Statistics</span>
-                                        <span class="transition group-open/sub:rotate-180">▼</span>
-                                    </summary>
-                                    <div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t border-slate-200 bg-white">
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Tableau Essential Training (2022)</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Sep 03, 2026</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Tableau Essential Training 2022.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Excel: PivotTables for Beginners</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Jan 12, 2023</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Excel PivotTables for Beginners 2018.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Statistics Foundations: 1</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Nov 27, 2019</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Statistics Foundations 1.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Statistics Foundations: 2</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Dec 15, 2019</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Statistics Foundations 2.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                    </div>
-                                </details>
-
-                                <details class="group/sub bg-slate-50 rounded border border-slate-200 overflow-hidden">
-                                    <summary class="flex justify-between items-center p-3 cursor-pointer font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
-                                        <span>Business Analysis & Process Modeling</span>
-                                        <span class="transition group-open/sub:rotate-180">▼</span>
-                                    </summary>
-                                    <div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t border-slate-200 bg-white">
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Business Analysis Foundations</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Dec 11, 2019</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Business Analysis Foundations.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Business Analysis Foundations: Business Process Modeling</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Apr 05, 2020</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Business Analysis Foundations Business Process Modeling (1).pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                    </div>
-                                </details>
-
-                                <details class="group/sub bg-slate-50 rounded border border-slate-200 overflow-hidden">
-                                    <summary class="flex justify-between items-center p-3 cursor-pointer font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
-                                        <span>Digital Tools, CMS & E-Learning Design</span>
-                                        <span class="transition group-open/sub:rotate-180">▼</span>
-                                    </summary>
-                                    <div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t border-slate-200 bg-white">
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">WordPress 5 Essential Training: Site Administration</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Sep 13, 2020</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_WordPress 5 Essential Training Site Administration (1).pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">WordPress.com Essential Training</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Jan 16, 2020</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_WordPress.com Essential Training 2019.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Articulate Storyline: Advanced Techniques</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Jun 03, 2019</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Articulate Storyline Advanced Techniques.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Elearning Essentials: Storyboarding</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: May 21, 2019</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Elearning Essentials Storyboarding.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Visual Aesthetics for Elearning</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Mar 17, 2020</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Visual Aesthetics for Elearning.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Graphic Design Careers: First Steps</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Jul 03, 2019</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Graphic Design Careers First Steps 2016.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">How to Use LinkedIn Learning</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Oct 06, 2021</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_How to Use LinkedIn Learning.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                    </div>
-                                </details>
-                            </div>
-                        </details>
-
-                        <!-- CATEGORY: Professional Strategy, Communication & Soft Skills -->
-                        <details class="group bg-white rounded border border-slate-200 shadow-sm overflow-hidden">
-                            <summary class="flex justify-between items-center p-4 cursor-pointer font-bold text-primary bg-slate-100 hover:bg-slate-200 transition">
-                                <span>Strategy, Communication & Professional Growth</span>
-                                <span class="transition group-open:rotate-180">▼</span>
-                            </summary>
-                            <div class="p-4 space-y-3 border-t border-slate-200">
-                                <details class="group/sub bg-slate-50 rounded border border-slate-200 overflow-hidden">
-                                    <summary class="flex justify-between items-center p-3 cursor-pointer font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
-                                        <span>Strategic Thinking & Business Acumen</span>
-                                        <span class="transition group-open/sub:rotate-180">▼</span>
-                                    </summary>
-                                    <div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t border-slate-200 bg-white">
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Increase Your Flexible Thinking Skills</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: May 04, 2026</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Increase Your Flexible Thinking Skills.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Strategic Thinking</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Nov 26, 2019</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Strategic Thinking 2017.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">How to Be More Strategic in Six Steps</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Feb 22, 2022</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_How to Be More Strategic in Six Steps.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Business Acumen for Project Managers</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Jan 08, 2020</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Business Acumen for Project Managers (1).pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Business Ethics</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Oct 05, 2021</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Business Ethics.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                    </div>
-                                </details>
-
-                                <details class="group/sub bg-slate-50 rounded border border-slate-200 overflow-hidden">
-                                    <summary class="flex justify-between items-center p-3 cursor-pointer font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
-                                        <span>Communication, Pitching & Public Speaking</span>
-                                        <span class="transition group-open/sub:rotate-180">▼</span>
-                                    </summary>
-                                    <div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t border-slate-200 bg-white">
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Communication Foundations</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Oct 01, 2021</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Communication Foundations 2018.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Communicating in the Language of Leadership</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Dec 05, 2022</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Communicating in the Language of Leadership.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Communicating with Diplomacy and Tact</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Jan 27, 2021</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Communicating with Diplomacy and Tact.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Speaking Up At Work</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Jan 27, 2021</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Speaking Up At Work.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Tips to Ask Questions that Enhance Communication</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Dec 30, 2025</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Tips to Ask Questions that Enhance Communication.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Starting a Memorable Conversation</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Sep 08, 2022</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Starting a Memorable Conversation.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Giving Your Elevator Pitch</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Jul 21, 2021</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Giving Your Elevator Pitch.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Pitching Your Ideas Strategically</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Mar 10, 2020</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Pitching Your Ideas Strategically.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Presenting Technical Information with Stories</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Oct 13, 2020</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Presenting Technical Information with Stories.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">How to Present and Stay on Point</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Nov 17, 2019</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_How to Present and Stay on Point.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Establishing Credibility as a Speaker</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Nov 08, 2019</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Establishing Credibility as a Speaker.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Technical Writing: Quick Start Guides</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Jun 26, 2020</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Technical Writing Quick Start Guides.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                    </div>
-                                </details>
-
-                                <details class="group/sub bg-slate-50 rounded border border-slate-200 overflow-hidden">
-                                    <summary class="flex justify-between items-center p-3 cursor-pointer font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
-                                        <span>Emotional Intelligence & Interpersonal Relations</span>
-                                        <span class="transition group-open/sub:rotate-180">▼</span>
-                                    </summary>
-                                    <div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t border-slate-200 bg-white">
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Developing Your Emotional Intelligence (2023)</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Jun 02, 2025</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Developing Your Emotional Intelligence 2023.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Leading with Emotional Intelligence</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Jan 08, 2026</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Leading with Emotional Intelligence.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Working with Difficult People</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Sep 01, 2020</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Working with Difficult People 2017.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Conflict Resolution Foundations</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Dec 12, 2019</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Conflict Resolution Foundations.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Influencing Others</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: May 19, 2022</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Influencing Others 2019.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Leading without Formal Authority</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Sep 02, 2026</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Leading without Formal Authority.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                    </div>
-                                </details>
-
-                                <details class="group/sub bg-slate-50 rounded border border-slate-200 overflow-hidden">
-                                    <summary class="flex justify-between items-center p-3 cursor-pointer font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
-                                        <span>Change Management & Personal Resilience</span>
-                                        <span class="transition group-open/sub:rotate-180">▼</span>
-                                    </summary>
-                                    <div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t border-slate-200 bg-white">
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Change Management Foundations</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Jul 20, 2022</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Change Management Foundations.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Embracing Change</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Jan 15, 2020</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Embracing Change 2014.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Embracing Unexpected Change</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Apr 20, 2020</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Embracing Unexpected Change.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Learning from Failure</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Nov 26, 2019</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Learning from Failure.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Managing Stress</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Dec 17, 2021</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Managing Stress 2019.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Stop Stressing and Keep Moving Forward</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Apr 16, 2021</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Stop Stressing and Keep Moving Forward.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Cultivating a Growth Mindset</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Mar 26, 2022</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Cultivating a Growth Mindset 2018.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Customer Service Foundations</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Oct 06, 2021</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Customer Service Foundations 2020.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Creating a Positive and Healthy Work Environment</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Nov 16, 2019</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Creating a Positive and Healthy Work Environment.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Time Management for Managers</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Jan 09, 2026</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Time Management for Managers.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">Five Ways to Control Your Time</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: Dec 04, 2019</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_Five Ways to Control Your Time.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                        <div class="p-2 border rounded shadow-sm flex flex-col justify-between">
-                                            <div>
-                                                <span class="font-bold text-slate-900">The Six Morning Habits of High Performers</span>
-                                                <p class="text-xs text-slate-500 mt-1">Completed: May 30, 2022</p>
-                                            </div>
-                                            <a href="CertificateOfCompletion_The Six Morning Habits of High Performers.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
-                                        </div>
-                                    </div>
-                                </details>
-                            </div>
-                        </details>
-                    </div>
-                </section>
-
-                <!-- Work History Section -->
-                <section class="p-6 rounded-lg border border-slate-200 bg-slate-50">
-                    <h2 class="text-2xl font-bold text-primary border-b-2 border-accent pb-2 mb-4">Work History</h2>
-                    <div class="space-y-4 text-slate-800">
-                        <div class="p-4 bg-white rounded border border-slate-200 shadow-sm">
-                            <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
-                                <div>
-                                    <h3 class="font-bold text-primary text-lg">Special Assistant Professional (OCM & Enterprise Training Lead)</h3>
-                                    <p class="text-slate-700 font-semibold">State of Missouri, Office of Administration | Jefferson City, MO</p>
-                                </div>
-                                <span class="text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded font-bold mt-2 md:mt-0">January 2023 – Present</span>
-                            </div>
-                        </div>
-
-                        <div class="p-4 bg-white rounded border border-slate-200 shadow-sm">
-                            <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
-                                <div>
-                                    <h3 class="font-bold text-primary text-lg">Human Resource Consultant</h3>
-                                    <p class="text-slate-700 font-semibold">State of Missouri, Office of Administration | Jefferson City, MO</p>
-                                </div>
-                                <span class="text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded font-bold mt-2 md:mt-0">September 2021 – December 2022</span>
-                            </div>
-                        </div>
-
-                        <div class="p-4 bg-white rounded border border-slate-200 shadow-sm">
-                            <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
-                                <div>
-                                    <h3 class="font-bold text-primary text-lg">Staff Development Specialist (Medicaid Policy Analyst)</h3>
-                                    <p class="text-slate-700 font-semibold">State of Missouri, Department of Social Services | Jefferson City, MO</p>
-                                </div>
-                                <span class="text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded font-bold mt-2 md:mt-0">April 2018 – September 2021</span>
-                            </div>
-                        </div>
-
-                        <div class="p-4 bg-white rounded border border-slate-200 shadow-sm">
-                            <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
-                                <div>
-                                    <h3 class="font-bold text-primary text-lg">Training and Development Technician I</h3>
-                                    <p class="text-slate-700 font-semibold">State of Missouri, Department of Social Services | Jefferson City, MO</p>
-                                </div>
-                                <span class="text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded font-bold mt-2 md:mt-0">September 2017 – April 2018</span>
-                            </div>
-                        </div>
-
-                        <div class="p-4 bg-white rounded border border-slate-200 shadow-sm">
-                            <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
-                                <div>
-                                    <h3 class="font-bold text-primary text-lg">Case Analyst (UAT & Systems Analyst)</h3>
-                                    <p class="text-slate-700 font-semibold">State of Missouri, Department of Social Services | Joplin, MO & Jefferson City, MO</p>
-                                </div>
-                                <span class="text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded font-bold mt-2 md:mt-0">September 2016 – September 2017</span>
-                            </div>
-                        </div>
-
-                        <div class="p-4 bg-white rounded border border-slate-200 shadow-sm">
-                            <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
-                                <div>
-                                    <h3 class="font-bold text-primary text-lg">Family Support Eligibility Specialist</h3>
-                                    <p class="text-slate-700 font-semibold">State of Missouri, Department of Social Services | Joplin, MO</p>
-                                </div>
-                                <span class="text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded font-bold mt-2 md:mt-0">July 2014 – September 2016</span>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Skills & Expertise -->
-                <section class="p-6 rounded-lg border border-slate-200 bg-slate-50">
-                    <h2 class="text-2xl font-bold text-primary border-b-2 border-accent pb-2 mb-4">Skills & Expertise</h2>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">Organizational Change Management (OCM)</span>
-                        <span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">Public Administration</span>
-                        <span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">Enterprise Training Design</span>
-                        <span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">Six Sigma Green Belt</span>
-                        <span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">Executive Leadership</span>
-                        <span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">ADDIE Frameworks</span>
-                        <span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">Instructional Design</span>
-                        <span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">Medicaid & Health Policy</span>
-                        <span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">Oracle Cloud & ERP SCM</span>
-                        <span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">Project Budgeting & PMBOK</span>
-                        <span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">User Acceptance Testing (UAT)</span>
-                        <span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">Python & Web Development</span>
-                        <span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">Tableau Dashboards & Analytics</span>
-                        <span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">Strategic Workforce Planning</span>
-                        <span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">Process Improvement & Lean Six Sigma</span>
-                        <span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">Regulatory Analysis & Compliance</span>
-                        <span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">Cross-Functional Team Leadership</span>
-                        <span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">Technical Writing & Storyboarding</span>
-                        <span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">GIS Mapping & Boundary Config</span>
-                        <span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">JIRA Complexity Scoring</span>
-                    </div>
-                </section>
-
-                <!-- Sample Portfolio Work -->
-                <section class="p-6 rounded-lg border border-slate-200 bg-slate-50">
-                    <h2 class="text-2xl font-bold text-primary border-b-2 border-accent pb-2 mb-6">Sample Portfolio Work</h2>
-                    
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                        <!-- Portfolio Category Card 1: Change Management & OCM -->
-                        <div class="bg-white rounded-lg border border-slate-200 shadow-md p-5 flex flex-col justify-between">
-                            <div>
-                                <h3 class="text-lg font-extrabold text-primary mb-2">Change Management & OCM</h3>
-                                <p class="text-xs text-slate-600 mb-4 font-semibold">Enterprise-wide transformation, readiness tracking, and stakeholder impact mapping.</p>
-                                
-                                <details class="group bg-slate-50 rounded border border-slate-200 overflow-hidden">
-                                    <summary class="flex justify-between items-center p-3 cursor-pointer font-bold text-slate-800 text-xs bg-slate-200/70 hover:bg-slate-200">
-                                        <span>Projects</span>
-                                        <span class="transition group-open:rotate-180">▼</span>
-                                    </summary>
-                                    <div class="p-3 space-y-3 bg-white border-t border-slate-200 text-xs">
-                                        <!-- Training and Development Project -->
-                                        <details class="group/proj bg-slate-50 rounded border border-slate-200">
-                                            <summary class="flex justify-between items-center p-2 cursor-pointer font-bold text-primary hover:bg-slate-100">
-                                                <span>Training and Development</span>
-                                                <span class="transition group-open/proj:rotate-180">▼</span>
-                                            </summary>
-                                            <ul class="p-2 space-y-1.5 bg-white border-t border-slate-200 text-slate-700">
-                                                <li>• <a href="https://sunny-snickerdoodle-e2b319.netlify.app/" target="_blank" class="text-primary underline font-semibold hover:text-accent">Missouri Bail Bond & Surety Recovery Agent 101 Interactive Training</a></li>
-                                                <li>• <a href="missouri_bail_bond_student_textbook-v8.docx (1) (1).pdf" target="_blank" class="text-primary underline font-semibold hover:text-accent">Comprehensive Pre-Licensing Curriculum, Statutory Commentary & Field Operations Manual (Student Edition)</a></li>
-                                                <li>• <a href="missouri_bail_bond_instructor_textbook-.pdf" target="_blank" class="text-primary underline font-semibold hover:text-accent">Comprehensive Pre-Licensing Curriculum, Statutory Commentary & Field Operations Manual (Instructor Edition)</a></li>
-                                            </ul>
-                                        </details>
-                                    </div>
-                                </details>
-                            </div>
-                        </div>
-
-                        <!-- Portfolio Category Card 2: Public Policy & Legislation -->
-                        <div class="bg-white rounded-lg border border-slate-200 shadow-md p-5 flex flex-col justify-between">
-                            <div>
-                                <h3 class="text-lg font-extrabold text-primary mb-2">Public Policy & Legislation</h3>
-                                <p class="text-xs text-slate-600 mb-4 font-semibold">APA-formatted policy reports, legislative models, and administrative proposals.</p>
-                                
-                                <details class="group bg-slate-50 rounded border border-slate-200 overflow-hidden">
-                                    <summary class="flex justify-between items-center p-3 cursor-pointer font-bold text-slate-800 text-xs bg-slate-200/70 hover:bg-slate-200">
-                                        <span>Projects</span>
-                                        <span class="transition group-open:rotate-180">▼</span>
-                                    </summary>
-                                    <div class="p-3 space-y-3 bg-white border-t border-slate-200 text-xs">
-                                        <details class="group/proj bg-slate-50 rounded border border-slate-200">
-                                            <summary class="flex justify-between items-center p-2 cursor-pointer font-bold text-primary hover:bg-slate-100">
-                                                <span>Brief on State HR Modernization</span>
-                                                <span class="transition group-open/proj:rotate-180">▼</span>
-                                            </summary>
-                                            <ul class="p-2 space-y-1 bg-white border-t border-slate-200 text-slate-700">
-                                                <li>• <a href="https://open.spotify.com/show/7eXU58gpztKVVNQWnefBWY?si=0d8761b22f274e6d" target="_blank" class="text-primary underline font-semibold hover:text-accent">State HR Modernization Podcast Brief (Spotify)</a></li>
-                                            </ul>
-                                        </details>
-                                    </div>
-                                </details>
-                            </div>
-                        </div>
-
-                        <!-- Portfolio Category Card 3: Software & Custom Tools -->
-                        <div class="bg-white rounded-lg border border-slate-200 shadow-md p-5 flex flex-col justify-between">
-                            <div>
-                                <h3 class="text-lg font-extrabold text-primary mb-2">Software & Custom Tools</h3>
-                                <p class="text-xs text-slate-600 mb-4 font-semibold">Web tools, database integrations, and GIS/mapping boundary configurations.</p>
-                                
-                                <details class="group bg-slate-50 rounded border border-slate-200 overflow-hidden">
-                                    <summary class="flex justify-between items-center p-3 cursor-pointer font-bold text-slate-800 text-xs bg-slate-200/70 hover:bg-slate-200">
-                                        <span>Projects</span>
-                                        <span class="transition group-open:rotate-180">▼</span>
-                                    </summary>
-                                    <div class="p-3 space-y-3 bg-white border-t border-slate-200 text-xs">
-                                        <details class="group/proj bg-slate-50 rounded border border-slate-200">
-                                            <summary class="flex justify-between items-center p-2 cursor-pointer font-bold text-primary hover:bg-slate-100">
-                                                <span>Bail Bond Enterprise</span>
-                                                <span class="transition group-open/proj:rotate-180">▼</span>
-                                            </summary>
-                                            <ul class="p-2 space-y-1 bg-white border-t border-slate-200 text-slate-700">
-                                                <li>• <a href="https://krystal-bail-bonds.vercel.app/" target="_blank" class="text-primary underline font-semibold hover:text-accent">Bail Bond Enterprise Application (Vercel)</a></li>
-                                            </ul>
-                                        </details>
-                                    </div>
-                                </details>
-                            </div>
-                        </div>
-
-                    </div>
-                </section>
-
-            </main>
-
-            <!-- Footer -->
-            <footer class="bg-primary text-white py-6 text-center text-sm border-t-4 border-accent font-medium">
-                <p>&copy; 2026 Travis John Griffin, MPA. All rights reserved.</p>
-            </footer>
-        </div>
-    </div>
-
+<!-- Outer Double-Bordered Container -->
+<div class="max-w-5xl mx-auto border-4 border-accent p-1 bg-accent">
+<div class="border-4 border-primary bg-white shadow-2xl">
+<!-- Top Banner -->
+<header class="bg-primary text-white py-10 px-8 border-b-4 border-accent relative">
+<div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8
+text-center md:text-left">
+<!-- Circular Profile Picture Cutout with Gold Outline -->
+<div class="w-36 h-36 rounded-full bg-slate-800 border-4 border-accent
+overflow-hidden flex-shrink-0 shadow-lg flex items-center justify-center text-slate-300 text-sm">
+<img src="Travis griffin.jpg" alt="Travis John Griffin, MPA" class="w-full h-full
+object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+<span style="display:none;" class="text-center p-2 text-white font-medium">Your Photo</span>
+</div>
+<!-- Header Text (White Font) -->
+<div>
+<h1 class="text-4xl font-extrabold tracking-tight text-white">Travis John Griffin, MPA</h1>
+<p class="text-lg text-slate-200 mt-1 uppercase tracking-wider
+font-semibold">Professional Portfolio & Credentials</p>
+<!-- Contact & Location Info -->
+<div class="mt-4 flex flex-wrap justify-center md:justify-start gap-4 text-sm
+text-white font-medium">
+<span class="flex items-center gap-1">📍 Jefferson City, MO & Joplin, MO</span>
+<a href="mailto:griffinjtravis78@gmail.com" class="hover:underline">✉ griffinjtravis78@gmail.com</a>
+<a href="tel:4174384173" class="hover:underline">📞 417-438-4173</a>
+</div>
+</div>
+</div>
+</header>
+<!-- Main Content Body -->
+<main class="p-8 space-y-10 bg-white">
+<!-- Military & Preferences Section -->
+<section class="p-6 rounded-lg border border-slate-200 bg-slate-50">
+<h2 class="text-2xl font-bold text-primary border-b-2 border-accent pb-2
+mb-4">Military Service & Legal Preferences</h2>
+<ul class="grid grid-cols-1 md:grid-cols-2 gap-4 text-slate-800">
+<li class="p-4 bg-white rounded border border-slate-200 shadow-sm">
+<span class="font-bold text-primary">Veteran Preference:</span> United
+States Marine Corps, E-3 (Lance Corporal), Honorable Discharge. 
+<br><strong class="text-slate-700">Date of Discharge:</strong> August 3, 2000.
+<div class="mt-3 flex flex-wrap gap-3 text-sm font-semibold">
+<a href="javascript:void(0);" onclick="alert('Due to personal information listed on the DD-214, please request a copy by emailing griffinjtravis78@gmail.com');"
+class="text-primary hover:text-accent underline">🔗 View DD-214</a>
+<a href="School of Infantry.pdf" target="_blank" class="text-primary
+hover:text-accent underline">🔗 View MCT Certificate</a>
+<a href="Redacted USMC.pdf" target="_blank" class="text-primary
+hover:text-accent underline">🔗 View Supply Course</a>
+</div>
+</li>
+<li class="p-4 bg-white rounded border border-slate-200 shadow-sm">
+<span class="font-bold text-primary">Native American Preference:</span>
+Verified Status (Wyandotte Nation Tribal Citizenship)
+<div class="mt-3 text-sm font-semibold">
+<a href="IMG_20260929_0004.jpg" target="_blank" class="text-primary
+hover:text-accent underline">🔗 Verify Tribal ID Card</a>
+</div>
+</li>
+</ul>
+</section>
+<!-- Volunteer & Civic Service Memberships Section -->
+<section class="p-6 rounded-lg border border-slate-200 bg-slate-50">
+<h2 class="text-2xl font-bold text-primary border-b-2 border-accent pb-2
+mb-4">Volunteer & Civic Service Memberships</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-slate-800">
+<div class="p-4 bg-white rounded border border-slate-200 shadow-sm">
+<h3 class="font-bold text-primary text-lg">Elks USA (Benevolent and
+Protective Order of Elks)</h3>
+<p class="text-slate-700 font-semibold text-sm">Jefferson City MO Lodge #513</p>
+<p class="text-xs text-slate-500 font-semibold mt-1">Membership Dues Paid
+To: 4/1/2027 | Member Years: 2</p>
+<div class="mt-3 text-sm font-semibold">
+<a href="IMG_20260929_0002.jpg" target="_blank" class="text-primary
+hover:text-accent underline">🔗 View Elks Member Card</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Education Section (Reordered) -->
+<section class="p-6 rounded-lg border border-slate-200 bg-slate-50">
+<h2 class="text-2xl font-bold text-primary border-b-2 border-accent pb-2
+mb-4">Education & Military Transcripts</h2>
+<div class="space-y-6">
+<!-- 1. Master's Degree -->
+<div class="flex flex-col md:flex-row justify-between items-start md:items-center
+p-4 bg-white rounded border border-slate-200 shadow-sm">
+<div>
+<h3 class="text-lg font-bold text-primary">Master of Public Administration
+(MPA)</h3>
+<p class="text-slate-700 font-medium">Walden University</p>
+<p class="text-xs text-slate-500 font-semibold">Conferred: November 12,
+2023</p>
+</div>
+<div class="mt-2 md:mt-0">
+<a href="MPA.pdf" target="_blank" class="text-sm font-semibold
+text-primary hover:text-accent underline">🔗 View Diploma</a>
+</div>
+</div>
+<!-- 2. Bachelor's Degree -->
+<div class="flex flex-col md:flex-row justify-between items-start md:items-center
+p-4 bg-white rounded border border-slate-200 shadow-sm">
+<div>
+<h3 class="text-lg font-bold text-primary">Bachelor of Science in Political
+Science and Public Administration</h3>
+<p class="text-slate-700 font-medium">Walden University</p>
+<p class="text-xs text-slate-500 font-semibold">Conferred: May 16,
+2021</p>
+</div>
+<div class="mt-2 md:mt-0">
+<a href="BS.pdf" target="_blank" class="text-sm font-semibold text-primary
+underline hover:text-accent">🔗 View Diploma</a>
+</div>
+</div>
+<!-- 3. Supply Chain Management Graduate Certification -->
+<div class="p-4 bg-white rounded border border-slate-200 shadow-sm flex
+flex-col md:flex-row justify-between items-start md:items-center">
+<div>
+<h3 class="text-lg font-bold text-primary">Supply Chain Management
+Graduate Certification</h3>
+<p class="text-slate-700 font-medium">The University of Oklahoma (Spring
+2027 Admission)</p>
+<p class="text-xs text-slate-500 font-semibold">Expected Graduation:
+November 2027</p>
+</div>
+<div class="mt-2 md:mt-0">
+<a href="Letter.pdf" target="_blank" class="text-sm font-semibold
+text-primary hover:text-accent underline">🔗 View Acceptance Letter</a>
+</div>
+</div>
+<!-- 4. FEMA Emergency Management Institute -->
+<div class="flex flex-col md:flex-row justify-between items-start md:items-center
+p-4 bg-white rounded border border-slate-200 shadow-sm">
+<div>
+<h3 class="text-lg font-bold text-primary">FEMA Emergency Management
+Institute</h3>
+<p class="text-slate-700 text-sm">Independent Study Program Transcript
+(Completed multiple emergency management, ICS, and leadership courses including
+IS-00100.b, IS-00230.b, and IS-00240.a).</p>
+</div>
+<div class="mt-2 md:mt-0">
+<a href="FEMA Transcript.pdf" target="_blank" class="text-sm
+font-semibold text-primary hover:text-accent underline">🔗 View FEMA Transcript</a>
+</div>
+</div>
+<!-- 5. Joint Services Transcript -->
+<div class="flex flex-col md:flex-row justify-between items-start md:items-center
+p-4 bg-white rounded border border-slate-200 shadow-sm">
+<div>
+<h3 class="text-lg font-bold text-primary">Joint Services Transcript
+(JST)</h3>
+<p class="text-slate-700 text-sm">United States Marine Corps Academic &
+Military Training Record</p>
+</div>
+<div class="mt-2 md:mt-0">
+<a href="Joint Services Transcript_2.pdf" target="_blank" class="text-sm
+font-semibold text-primary hover:text-accent underline">🔗 View JST Transcript</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Certifications Section (Categorized Accordions) -->
+<section class="p-6 rounded-lg border border-slate-200 bg-slate-50">
+<h2 class="text-2xl font-bold text-primary border-b-2 border-accent pb-2
+mb-4">Certifications & Professional Development</h2>
+<div class="space-y-4">
+<!-- CATEGORY: Human Resources (HR) -->
+<details class="group bg-white rounded border border-slate-200 shadow-sm
+overflow-hidden">
+<summary class="flex justify-between items-center p-4 cursor-pointer
+font-bold text-primary bg-slate-100 hover:bg-slate-200 transition">
+<span>Human Resources (HR) & Talent Management</span>
+<span class="transition group-open:rotate-180">▼</span>
+</summary>
+<div class="p-4 space-y-3 border-t border-slate-200">
+<details class="group/sub bg-slate-50 rounded border border-slate-200
+overflow-hidden">
+<summary class="flex justify-between items-center p-3 cursor-pointer
+font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
+<span>Workforce Planning & Succession</span>
+<span class="transition group-open/sub:rotate-180">▼</span>
+</summary>
+<div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t
+border-slate-200 bg-white">
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Human Resources:
+Strategic Workforce Planning</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Sep 21,
+2022</p>
+</div>
+<a href="CertificateOfCompletion_Human Resources Strategic
+Workforce Planning 2018.pdf" target="_blank" class="text-xs font-bold text-primary underline
+mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Succession
+Planning</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Dec 31,
+2025</p>
+</div>
+<a href="CertificateOfCompletion_Succession Planning.pdf"
+target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Strategic Human
+Resources</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Sep 08,
+2022</p>
+</div>
+<a href="CertificateOfCompletion_Strategic Human Resources.pdf"
+target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
+</div>
+</div>
+</details>
+<details class="group/sub bg-slate-50 rounded border border-slate-200
+overflow-hidden">
+<summary class="flex justify-between items-center p-3 cursor-pointer
+font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
+<span>Diversity, Inclusion & Workplace Culture</span>
+<span class="transition group-open/sub:rotate-180">▼</span>
+</summary>
+<div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t
+border-slate-200 bg-white">
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Hiring and Supporting
+Neurodiversity in the Workplace</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Sep 02,
+2026</p>
+</div>
+<a href="CertificateOfCompletion_Hiring and Supporting
+Neurodiversity in the Workplace 2021 (1).pdf" target="_blank" class="text-xs font-bold
+text-primary underline mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Uncovering Your Authentic
+Self at Work</span>
+<p class="text-xs text-slate-500 mt-1">Completed: May 15,
+2022</p>
+</div>
+<a href="CertificateOfCompletion_Uncovering Your Authentic Self at
+Work.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Leading Your Org on a
+Journey of Allyship</span>
+<p class="text-xs text-slate-500 mt-1">Completed: May 16,
+2022</p>
+</div>
+<a href="CertificateOfCompletion_Leading Your Org on a Journey of
+Allyship.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Managing Multiple
+Generations</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Nov 26,
+2019</p>
+</div>
+<a href="CertificateOfCompletion_Managing Multiple Generations
+2014.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+</div>
+</details>
+<details class="group/sub bg-slate-50 rounded border border-slate-200
+overflow-hidden">
+<summary class="flex justify-between items-center p-3 cursor-pointer
+font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
+<span>Onboarding & Mentorship</span>
+<span class="transition group-open/sub:rotate-180">▼</span>
+</summary>
+<div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t
+border-slate-200 bg-white">
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Onboarding New Hires as
+a Manager</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Aug 21,
+2022</p>
+</div>
+<a href="CertificateOfCompletion_Onboarding New Hires as a
+Manager 2019.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Being a Good
+Mentor</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Dec 03,
+2019</p>
+</div>
+<a href="CertificateOfCompletion_Being a Good Mentor 2016.pdf"
+target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
+</div>
+</div>
+</details>
+</div>
+</details>
+<!-- CATEGORY: Leadership & Management -->
+<details class="group bg-white rounded border border-slate-200 shadow-sm
+overflow-hidden">
+<summary class="flex justify-between items-center p-4 cursor-pointer
+font-bold text-primary bg-slate-100 hover:bg-slate-200 transition">
+<span>Leadership & Management</span>
+<span class="transition group-open:rotate-180">▼</span>
+</summary>
+<div class="p-4 space-y-3 border-t border-slate-200">
+<details class="group/sub bg-slate-50 rounded border border-slate-200
+overflow-hidden">
+<summary class="flex justify-between items-center p-3 cursor-pointer
+font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
+<span>Executive & Strategic Leadership</span>
+<span class="transition group-open/sub:rotate-180">▼</span>
+</summary>
+<div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t
+border-slate-200 bg-white">
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Executive
+Leadership</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Jul 08,
+2026</p>
+</div>
+<a href="CertificateOfCompletion_Executive Leadership.pdf"
+target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Strategic Leadership:
+Deploying Intelligent Disobedience</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Sep 14,
+2020</p>
+</div>
+<a href="CertificateOfCompletion_Strategic Leadership Deploying
+Intelligent Disobedience.pdf" target="_blank" class="text-xs font-bold text-primary underline
+mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Ken Blanchard on Servant
+Leadership</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Oct 24,
+2020</p>
+</div>
+<a href="CertificateOfCompletion_Ken Blanchard on Servant
+Leadership.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Rules for Rising
+Leaders</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Jun 23,
+2022</p>
+</div>
+<a href="CertificateOfCompletion_Rules for Rising Leaders.pdf"
+target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Start with Why: How Great
+Leaders Inspire Everyone</span>
+<p class="text-xs text-slate-500 mt-1">Completed: May 21,
+2019</p>
+</div>
+<a href="CertificateOfCompletion_Start with Why How Great
+Leaders Inspire Everyone to Take Action Blinkist Summary.pdf" target="_blank" class="text-xs
+font-bold text-primary underline mt-2">View Certificate</a>
+</div>
+</div>
+</details>
+<details class="group/sub bg-slate-50 rounded border border-slate-200
+overflow-hidden">
+<summary class="flex justify-between items-center p-3 cursor-pointer
+font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
+<span>People Management & Team Leadership</span>
+<span class="transition group-open/sub:rotate-180">▼</span>
+</summary>
+<div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t
+border-slate-200 bg-white">
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Make the Move from
+Individual Contributor to Manager</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Sep 18,
+2020</p>
+</div>
+<a href="CertificateOfCompletion_Make the Move from Individual
+Contributor to Manager.pdf" target="_blank" class="text-xs font-bold text-primary underline
+mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Leadership: Practical
+Skills</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Dec 04,
+2019</p>
+</div>
+<a href="CertificateOfCompletion_Leadership Practical Skills
+(1).pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Succeeding as a
+First-Time Tech Manager (2019)</span>
+<p class="text-xs text-slate-500 mt-1">Completed: May 15,
+2025</p>
+</div>
+<a href="CertificateOfCompletion_Succeeding as a FirstTime Tech
+Manager 2019.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Leading and Motivating
+People with Different Personalities</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Aug 14,
+2022</p>
+</div>
+<a href="CertificateOfCompletion_Leading and Motivating People
+with Different Personalities.pdf" target="_blank" class="text-xs font-bold text-primary underline
+mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Managing a
+Cross-Functional Team</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Nov 18,
+2019</p>
+</div>
+<a href="CertificateOfCompletion_Managing a CrossFunctional
+Team.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Holding Yourself
+Accountable</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Oct 06,
+2021</p>
+</div>
+<a href="CertificateOfCompletion_Holding Yourself Accountable
+2017.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+</div>
+</details>
+<details class="group/sub bg-slate-50 rounded border border-slate-200
+overflow-hidden">
+<summary class="flex justify-between items-center p-3 cursor-pointer
+font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
+<span>Remote & Hybrid Team Leadership</span>
+<span class="transition group-open/sub:rotate-180">▼</span>
+</summary>
+<div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t
+border-slate-200 bg-white">
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Managing Virtual &
+Remote Teams</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Apr 2021</p>
+</div>
+<a href="CertificateOfCompletion_Managing Virtual Teams.pdf"
+target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Leading at a
+Distance</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Apr 23,
+2021</p>
+</div>
+<a href="CertificateOfCompletion_Leading at a Distance 2019.pdf"
+target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Planning for Your Hybrid
+Organization</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Apr 27,
+2021</p>
+</div>
+<a href="CertificateOfCompletion_Planning for Your Hybrid Organization.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Building Relationships
+While Working from Home</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Apr 19,
+2021</p>
+</div>
+<a href="CertificateOfCompletion_Building Relationships While
+Working from Home.pdf" target="_blank" class="text-xs font-bold text-primary underline
+mt-2">View Certificate</a>
+</div>
+</div>
+</details>
+</div>
+</details>
+<!-- CATEGORY: Project Management -->
+<details class="group bg-white rounded border border-slate-200 shadow-sm
+overflow-hidden">
+<summary class="flex justify-between items-center p-4 cursor-pointer
+font-bold text-primary bg-slate-100 hover:bg-slate-200 transition">
+<span>Project Management & Methodologies</span>
+<span class="transition group-open:rotate-180">▼</span>
+</summary>
+<div class="p-4 space-y-3 border-t border-slate-200">
+<details class="group/sub bg-slate-50 rounded border border-slate-200
+overflow-hidden">
+<summary class="flex justify-between items-center p-3 cursor-pointer
+font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
+<span>Core Project Management & Scheduling</span>
+<span class="transition group-open/sub:rotate-180">▼</span>
+</summary>
+<div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t
+border-slate-200 bg-white">
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Project Management
+Foundations (Sep 2026)</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Sep 01,
+2026</p>
+</div>
+<a href="CertificateOfCompletion_Project Management
+Foundations.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Project Management
+Foundations: Budgets</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Jul 08,
+2026</p>
+</div>
+<a href="CertificateOfCompletion_Project Management Foundations
+Budgets.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Project Management:
+Preventing Scope Creep</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Jan 14,
+2022</p>
+</div>
+<a href="CertificateOfCompletion_Project Management Preventing
+Scope Creep.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Leading Projects</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Jan 19,
+2020</p>
+</div>
+<a href="CertificateOfCompletion_Leading Projects.pdf"
+target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Primavera P6 Essential
+Training</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Dec 28,
+2019</p>
+</div>
+<a href="CertificateOfCompletion_Primavera P6 Essential
+Training.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Scrum: The
+Basics</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Dec 17,
+2019</p>
+</div>
+<a href="CertificateOfCompletion_Scrum The Basics.pdf"
+target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
+</div>
+</div>
+</details>
+<details class="group/sub bg-slate-50 rounded border border-slate-200
+overflow-hidden">
+<summary class="flex justify-between items-center p-3 cursor-pointer
+font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
+<span>Government & Specialized Project Management</span>
+<span class="transition group-open/sub:rotate-180">▼</span>
+</summary>
+<div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t
+border-slate-200 bg-white">
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Project Management:
+Government Projects</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Jan 02,
+2020</p>
+</div>
+<a href="CertificateOfCompletion_Project Management Government
+Projects.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Getting Started as a
+Government Project Manager</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Jan 19,
+2020</p>
+</div>
+<a href="CertificateOfCompletion_Getting Started as a Government
+Project Manager.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Selling Into Industries:
+Government</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Jan 02,
+2020</p>
+</div>
+<a href="CertificateOfCompletion_Selling Into Industries
+Government.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+</div>
+</details>
+<details class="group/sub bg-slate-50 rounded border border-slate-200
+overflow-hidden">
+<summary class="flex justify-between items-center p-3 cursor-pointer
+font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
+<span>Stakeholder & People Skills for PM</span>
+<span class="transition group-open/sub:rotate-180">▼</span>
+</summary>
+<div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t
+border-slate-200 bg-white">
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Stakeholder Management
+for Leaders and Managers</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Sep 22,
+2026</p>
+</div>
+<a href="CertificateOfCompletion_Stakeholder Management for
+Leaders and Managers.pdf" target="_blank" class="text-xs font-bold text-primary underline
+mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">The Eight Essential
+People Skills for Project Management</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Nov 05,
+2020</p>
+</div>
+<a href="CertificateOfCompletion_The Eight Essential People Skills
+for Project Management Blinkist Summary.pdf" target="_blank" class="text-xs font-bold
+text-primary underline mt-2">View Certificate</a>
+</div>
+</div>
+</details>
+</div>
+</details>
+<!-- CATEGORY: Quality & Process Improvement -->
+<details class="group bg-white rounded border border-slate-200 shadow-sm
+overflow-hidden">
+<summary class="flex justify-between items-center p-4 cursor-pointer
+font-bold text-primary bg-slate-100 hover:bg-slate-200 transition">
+<span>Quality & Process Improvement (Six Sigma & Lean)</span>
+<span class="transition group-open:rotate-180">▼</span>
+</summary>
+<div class="p-4 space-y-3 border-t border-slate-200">
+<details class="group/sub bg-slate-50 rounded border border-slate-200
+overflow-hidden">
+<summary class="flex justify-between items-center p-3 cursor-pointer
+font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
+<span>Six Sigma & Lean Methodologies</span>
+<span class="transition group-open/sub:rotate-180">▼</span>
+</summary>
+<div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t
+border-slate-200 bg-white">
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Six Sigma: Green
+Belt</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Aug 31,
+2026</p>
+</div>
+<a href="CertificateOfCompletion_Six Sigma Green Belt (1).pdf"
+target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Become a Six Sigma
+Yellow Belt</span>
+<p class="text-xs text-slate-500 mt-1">Completed: May 15,
+2025</p>
+</div>
+<a href="CertificateOfCompletion_Become a Six Sigma Yellow
+Belt.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Six Sigma
+Foundations</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Oct 13,
+2021</p>
+</div>
+<a href="CertificateOfCompletion_Six Sigma Foundations 2020.pdf"
+target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Lean Six Sigma: Analyze,
+Improve, and Control Tools</span>
+<p class="text-xs text-slate-500 mt-1">Completed: May 14,
+2025</p>
+</div>
+<a href="CertificateOfCompletion_Lean Six Sigma Analyze Improve
+and Control Tools.pdf" target="_blank" class="text-xs font-bold text-primary underline
+mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Lean Six Sigma: Define
+and Measure Tools</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Dec 03,
+2023</p>
+</div>
+<a href="CertificateOfCompletion_Lean Six Sigma Define and
+Measure Tools.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Lean Six Sigma
+Foundations</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Mar 10,
+2020</p>
+</div>
+<a href="CertificateOfCompletion_Lean Six Sigma Foundations.pdf"
+target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
+</div>
+</div>
+</details>
+<details class="group/sub bg-slate-50 rounded border border-slate-200
+overflow-hidden">
+<summary class="flex justify-between items-center p-3 cursor-pointer
+font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
+<span>Operational Excellence & Process Optimization</span>
+<span class="transition group-open/sub:rotate-180">▼</span>
+</summary>
+<div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t
+border-slate-200 bg-white">
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Operational Excellence
+Foundations</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Jun 01,
+2021</p>
+</div>
+<a href="CertificateOfCompletion_Operational Excellence
+Foundations.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Process Improvement
+Foundations</span>
+<p class="text-xs text-slate-500 mt-1">Completed: May 20,
+2021</p>
+</div>
+<a href="CertificateOfCompletion_Process Improvement
+Foundations.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Dealing with the Seven
+Deadly Wastes</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Jan 08,
+2026</p>
+</div>
+<a href="CertificateOfCompletion_Dealing with the Seven Deadly
+Wastes.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+</div>
+</details>
+<details class="group/sub bg-slate-50 rounded border border-slate-200
+overflow-hidden">
+<summary class="flex justify-between items-center p-3 cursor-pointer
+font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
+<span>Problem Solving & Root Cause Analysis</span>
+<span class="transition group-open/sub:rotate-180">▼</span>
+</summary>
+<div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t
+border-slate-200 bg-white">
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Root Cause
+Analysis</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Aug 23,
+2022</p>
+</div>
+<a href="CertificateOfCompletion_Root Cause Analysis Getting to
+the Root of Business Problems.pdf" target="_blank" class="text-xs font-bold text-primary
+underline mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">A3 Problem Solving for
+Continuous Improvement</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Dec 07,
+2020</p>
+</div>
+<a href="CertificateOfCompletion_A3 Problem Solving for
+Continuous Improvement.pdf" target="_blank" class="text-xs font-bold text-primary underline
+mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Problem-Solving
+Techniques</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Aug 21,
+2022</p>
+</div>
+<a href="CertificateOfCompletion_ProblemSolving Techniques.pdf"
+target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Take a More Creative
+Approach to Problem-Solving</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Mar 21,
+2022</p>
+</div>
+<a href="CertificateOfCompletion_Take a More Creative Approach
+to ProblemSolving.pdf" target="_blank" class="text-xs font-bold text-primary underline
+mt-2">View Certificate</a>
+</div>
+</div>
+</details>
+</div>
+</details>
+<!-- CATEGORY: Technical & Analysis -->
+<details class="group bg-white rounded border border-slate-200 shadow-sm
+overflow-hidden">
+<summary class="flex justify-between items-center p-4 cursor-pointer
+font-bold text-primary bg-slate-100 hover:bg-slate-200 transition">
+<span>Technical, Software & Analysis</span>
+<span class="transition group-open:rotate-180">▼</span>
+</summary>
+<div class="p-4 space-y-3 border-t border-slate-200">
+<details class="group/sub bg-slate-50 rounded border border-slate-200
+overflow-hidden">
+<summary class="flex justify-between items-center p-3 cursor-pointer
+font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
+<span>Data Analytics, Dashboards & Statistics</span>
+<span class="transition group-open/sub:rotate-180">▼</span>
+</summary>
+<div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t
+border-slate-200 bg-white">
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Tableau Essential Training
+(2022)</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Sep 03,
+2026</p>
+</div>
+<a href="CertificateOfCompletion_Tableau Essential Training
+2022.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Excel: PivotTables for
+Beginners</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Jan 12,
+2023</p>
+</div>
+<a href="CertificateOfCompletion_Excel PivotTables for Beginners 2018.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Statistics Foundations:
+1</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Nov 27,
+2019</p>
+</div>
+<a href="CertificateOfCompletion_Statistics Foundations 1.pdf"
+target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Statistics Foundations:
+2</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Dec 15,
+2019</p>
+</div>
+<a href="CertificateOfCompletion_Statistics Foundations 2.pdf"
+target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
+</div>
+</div>
+</details>
+<details class="group/sub bg-slate-50 rounded border border-slate-200
+overflow-hidden">
+<summary class="flex justify-between items-center p-3 cursor-pointer
+font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
+<span>Business Analysis & Process Modeling</span>
+<span class="transition group-open/sub:rotate-180">▼</span>
+</summary>
+<div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t
+border-slate-200 bg-white">
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Business Analysis
+Foundations</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Dec 11,
+2019</p>
+</div>
+<a href="CertificateOfCompletion_Business Analysis
+Foundations.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Business Analysis
+Foundations: Business Process Modeling</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Apr 05,
+2020</p>
+</div>
+<a href="CertificateOfCompletion_Business Analysis Foundations
+Business Process Modeling (1).pdf" target="_blank" class="text-xs font-bold text-primary
+underline mt-2">View Certificate</a>
+</div>
+</div>
+</details>
+<details class="group/sub bg-slate-50 rounded border border-slate-200
+overflow-hidden">
+<summary class="flex justify-between items-center p-3 cursor-pointer
+font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
+<span>Digital Tools, CMS & E-Learning Design</span>
+<span class="transition group-open/sub:rotate-180">▼</span>
+</summary>
+<div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t
+border-slate-200 bg-white">
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">WordPress 5 Essential
+Training: Site Administration</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Sep 13,
+2020</p>
+</div>
+<a href="CertificateOfCompletion_WordPress 5 Essential Training
+Site Administration (1).pdf" target="_blank" class="text-xs font-bold text-primary underline
+mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">WordPress.com Essential
+Training</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Jan 16,
+2020</p>
+</div>
+<a href="CertificateOfCompletion_WordPress.com Essential
+Training 2019.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Articulate Storyline:
+Advanced Techniques</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Jun 03,
+2019</p>
+</div>
+<a href="CertificateOfCompletion_Articulate Storyline Advanced
+Techniques.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Elearning Essentials:
+Storyboarding</span>
+<p class="text-xs text-slate-500 mt-1">Completed: May 21,
+2019</p>
+</div>
+<a href="CertificateOfCompletion_Elearning Essentials
+Storyboarding.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Visual Aesthetics for
+Elearning</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Mar 17,
+2020</p>
+</div>
+<a href="CertificateOfCompletion_Visual Aesthetics for
+Elearning.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Graphic Design Careers:
+First Steps</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Jul 03,
+2019</p>
+</div>
+<a href="CertificateOfCompletion_Graphic Design Careers First
+Steps 2016.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">How to Use LinkedIn
+Learning</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Oct 06,
+2021</p>
+</div>
+<a href="CertificateOfCompletion_How to Use LinkedIn
+Learning.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+</div>
+</details>
+</div>
+</details>
+<!-- CATEGORY: Professional Strategy, Communication & Soft Skills -->
+<details class="group bg-white rounded border border-slate-200 shadow-sm
+overflow-hidden">
+<summary class="flex justify-between items-center p-4 cursor-pointer
+font-bold text-primary bg-slate-100 hover:bg-slate-200 transition">
+<span>Strategy, Communication & Professional Growth</span>
+<span class="transition group-open:rotate-180">▼</span>
+</summary>
+<div class="p-4 space-y-3 border-t border-slate-200">
+<details class="group/sub bg-slate-50 rounded border border-slate-200
+overflow-hidden">
+<summary class="flex justify-between items-center p-3 cursor-pointer
+font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
+<span>Strategic Thinking & Business Acumen</span>
+<span class="transition group-open/sub:rotate-180">▼</span>
+</summary>
+<div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t
+border-slate-200 bg-white">
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Increase Your Flexible
+Thinking Skills</span>
+<p class="text-xs text-slate-500 mt-1">Completed: May 04,
+2026</p>
+</div>
+<a href="CertificateOfCompletion_Increase Your Flexible Thinking
+Skills.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Strategic Thinking</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Nov 26,
+2019</p>
+</div>
+<a href="CertificateOfCompletion_Strategic Thinking 2017.pdf"
+target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">How to Be More Strategic
+in Six Steps</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Feb 22,
+2022</p>
+</div>
+<a href="CertificateOfCompletion_How to Be More Strategic in Six
+Steps.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Business Acumen for
+Project Managers</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Jan 08,
+2020</p>
+</div>
+<a href="CertificateOfCompletion_Business Acumen for Project
+Managers (1).pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Business Ethics</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Oct 05,
+2021</p>
+</div>
+<a href="CertificateOfCompletion_Business Ethics.pdf"
+target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
+</div>
+</div>
+</details>
+<details class="group/sub bg-slate-50 rounded border border-slate-200
+overflow-hidden">
+<summary class="flex justify-between items-center p-3 cursor-pointer
+font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
+<span>Communication, Pitching & Public Speaking</span>
+<span class="transition group-open/sub:rotate-180">▼</span>
+</summary>
+<div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t
+border-slate-200 bg-white">
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Communication
+Foundations</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Oct 01,
+2021</p>
+</div>
+<a href="CertificateOfCompletion_Communication Foundations
+2018.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Communicating in the
+Language of Leadership</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Dec 05,
+2022</p>
+</div>
+<a href="CertificateOfCompletion_Communicating in the Language
+of Leadership.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Communicating with
+Diplomacy and Tact</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Jan 27,
+2021</p>
+</div>
+<a href="CertificateOfCompletion_Communicating with Diplomacy
+and Tact.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Speaking Up At
+Work</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Jan 27,
+2021</p>
+</div>
+<a href="CertificateOfCompletion_Speaking Up At Work.pdf"
+target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Tips to Ask Questions that
+Enhance Communication</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Dec 30,
+2025</p>
+</div>
+<a href="CertificateOfCompletion_Tips to Ask Questions that
+Enhance Communication.pdf" target="_blank" class="text-xs font-bold text-primary underline
+mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Starting a Memorable
+Conversation</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Sep 08,
+2022</p>
+</div>
+<a href="CertificateOfCompletion_Starting a Memorable
+Conversation.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Giving Your Elevator
+Pitch</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Jul 21,
+2021</p>
+</div>
+<a href="CertificateOfCompletion_Giving Your Elevator Pitch.pdf"
+target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Pitching Your Ideas
+Strategically</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Mar 10,
+2020</p>
+</div>
+<a href="CertificateOfCompletion_Pitching Your Ideas
+Strategically.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Presenting Technical
+Information with Stories</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Oct 13,
+2020</p>
+</div>
+<a href="CertificateOfCompletion_Presenting Technical Information
+with Stories.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">How to Present and Stay
+on Point</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Nov 17,
+2019</p>
+</div>
+<a href="CertificateOfCompletion_How to Present and Stay on
+Point.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Establishing Credibility as
+a Speaker</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Nov 08,
+2019</p>
+</div>
+<a href="CertificateOfCompletion_Establishing Credibility as a
+Speaker.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Technical Writing: Quick
+Start Guides</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Jun 26,
+2020</p>
+</div>
+<a href="CertificateOfCompletion_Technical Writing Quick Start
+Guides.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+</div>
+</details>
+<details class="group/sub bg-slate-50 rounded border border-slate-200
+overflow-hidden">
+<summary class="flex justify-between items-center p-3 cursor-pointer
+font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
+<span>Emotional Intelligence & Interpersonal Relations</span>
+<span class="transition group-open/sub:rotate-180">▼</span>
+</summary>
+<div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t
+border-slate-200 bg-white">
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Developing Your
+Emotional Intelligence (2023)</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Jun 02,
+2025</p>
+</div>
+<a href="CertificateOfCompletion_Developing Your Emotional
+Intelligence 2023.pdf" target="_blank" class="text-xs font-bold text-primary underline
+mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Leading with Emotional
+Intelligence</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Jan 08,
+2026</p>
+</div>
+<a href="CertificateOfCompletion_Leading with Emotional
+Intelligence.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Working with Difficult
+People</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Sep 01,
+2020</p>
+</div>
+<a href="CertificateOfCompletion_Working with Difficult People
+2017.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Conflict Resolution
+Foundations</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Dec 12,
+2019</p>
+</div>
+<a href="CertificateOfCompletion_Conflict Resolution
+Foundations.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Influencing Others</span>
+<p class="text-xs text-slate-500 mt-1">Completed: May 19,
+2022</p>
+</div>
+<a href="CertificateOfCompletion_Influencing Others 2019.pdf"
+target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Leading without Formal
+Authority</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Sep 02,
+2026</p>
+</div>
+<a href="CertificateOfCompletion_Leading without Formal
+Authority.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+</div>
+</details>
+<details class="group/sub bg-slate-50 rounded border border-slate-200
+overflow-hidden">
+<summary class="flex justify-between items-center p-3 cursor-pointer
+font-semibold text-slate-800 bg-slate-200/60 hover:bg-slate-200 text-sm">
+<span>Change Management & Personal Resilience</span>
+<span class="transition group-open/sub:rotate-180">▼</span>
+</summary>
+<div class="p-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm border-t
+border-slate-200 bg-white">
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Change Management
+Foundations</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Jul 20,
+2022</p>
+</div>
+<a href="CertificateOfCompletion_Change Management Foundations.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Embracing Change</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Jan 15,
+2020</p>
+</div>
+<a href="CertificateOfCompletion_Embracing Change 2014.pdf"
+target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Embracing Unexpected
+Change</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Apr 20,
+2020</p>
+</div>
+<a href="CertificateOfCompletion_Embracing Unexpected
+Change.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Learning from
+Failure</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Nov 26,
+2019</p>
+</div>
+<a href="CertificateOfCompletion_Learning from Failure.pdf"
+target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Managing Stress</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Dec 17,
+2021</p>
+</div>
+<a href="CertificateOfCompletion_Managing Stress 2019.pdf"
+target="_blank" class="text-xs font-bold text-primary underline mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Stop Stressing and Keep
+Moving Forward</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Apr 16,
+2021</p>
+</div>
+<a href="CertificateOfCompletion_Stop Stressing and Keep Moving
+Forward.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Cultivating a Growth
+Mindset</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Mar 26,
+2022</p>
+</div>
+<a href="CertificateOfCompletion_Cultivating a Growth Mindset
+2018.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Customer Service
+Foundations</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Oct 06,
+2021</p>
+</div>
+<a href="CertificateOfCompletion_Customer Service Foundations
+2020.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Creating a Positive and
+Healthy Work Environment</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Nov 16,
+2019</p>
+</div>
+<a href="CertificateOfCompletion_Creating a Positive and Healthy
+Work Environment.pdf" target="_blank" class="text-xs font-bold text-primary underline
+mt-2">View Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Time Management for
+Managers</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Jan 09,
+2026</p>
+</div>
+<a href="CertificateOfCompletion_Time Management for
+Managers.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">Five Ways to Control Your
+Time</span>
+<p class="text-xs text-slate-500 mt-1">Completed: Dec 04,
+2019</p>
+</div>
+<a href="CertificateOfCompletion_Five Ways to Control Your
+Time.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+<div class="p-2 border rounded shadow-sm flex flex-col
+justify-between">
+<div>
+<span class="font-bold text-slate-900">The Six Morning Habits of
+High Performers</span>
+<p class="text-xs text-slate-500 mt-1">Completed: May 30,
+2022</p>
+</div>
+<a href="CertificateOfCompletion_The Six Morning Habits of High
+Performers.pdf" target="_blank" class="text-xs font-bold text-primary underline mt-2">View
+Certificate</a>
+</div>
+</div>
+</details>
+</div>
+</details>
+</div>
+</section>
+<!-- Work History Section -->
+<section class="p-6 rounded-lg border border-slate-200 bg-slate-50">
+<h2 class="text-2xl font-bold text-primary border-b-2 border-accent pb-2
+mb-4">Work History</h2>
+<div class="space-y-4 text-slate-800">
+<div class="p-4 bg-white rounded border border-slate-200 shadow-sm">
+<div class="flex flex-col md:flex-row justify-between items-start
+md:items-center">
+<div>
+<h3 class="font-bold text-primary text-lg">Special Assistant Professional
+(OCM & Enterprise Training Lead)</h3>
+<p class="text-slate-700 font-semibold">State of Missouri, Office of
+Administration | Jefferson City, MO</p>
+</div>
+<span class="text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded
+font-bold mt-2 md:mt-0">January 2023 – Present</span>
+</div>
+</div>
+<div class="p-4 bg-white rounded border border-slate-200 shadow-sm">
+<div class="flex flex-col md:flex-row justify-between items-start
+md:items-center">
+<div>
+<h3 class="font-bold text-primary text-lg">Human Resource
+Consultant</h3>
+<p class="text-slate-700 font-semibold">State of Missouri, Office of
+Administration | Jefferson City, MO</p>
+</div>
+<span class="text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded
+font-bold mt-2 md:mt-0">September 2021 – December 2022</span>
+</div>
+</div>
+<div class="p-4 bg-white rounded border border-slate-200 shadow-sm">
+<div class="flex flex-col md:flex-row justify-between items-start
+md:items-center">
+<div>
+<h3 class="font-bold text-primary text-lg">Staff Development Specialist
+(Medicaid Policy Analyst)</h3>
+<p class="text-slate-700 font-semibold">State of Missouri, Department of
+Social Services | Jefferson City, MO</p>
+</div>
+<span class="text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded
+font-bold mt-2 md:mt-0">April 2018 – September 2021</span>
+</div>
+</div>
+<div class="p-4 bg-white rounded border border-slate-200 shadow-sm">
+<div class="flex flex-col md:flex-row justify-between items-start
+md:items-center">
+<div>
+<h3 class="font-bold text-primary text-lg">Training and Development
+Technician I</h3>
+<p class="text-slate-700 font-semibold">State of Missouri, Department of
+Social Services | Jefferson City, MO</p>
+</div>
+<span class="text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded
+font-bold mt-2 md:mt-0">September 2017 – April 2018</span>
+</div>
+</div>
+<div class="p-4 bg-white rounded border border-slate-200 shadow-sm">
+<div class="flex flex-col md:flex-row justify-between items-start
+md:items-center">
+<div>
+<h3 class="font-bold text-primary text-lg">Case Analyst (UAT & Systems
+Analyst)</h3>
+<p class="text-slate-700 font-semibold">State of Missouri, Department of
+Social Services | Joplin, MO & Jefferson City, MO</p>
+</div>
+<span class="text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded
+font-bold mt-2 md:mt-0">September 2016 – September 2017</span>
+</div>
+</div>
+<div class="p-4 bg-white rounded border border-slate-200 shadow-sm">
+<div class="flex flex-col md:flex-row justify-between items-start
+md:items-center">
+<div>
+<h3 class="font-bold text-primary text-lg">Family Support Eligibility
+Specialist</h3>
+<p class="text-slate-700 font-semibold">State of Missouri, Department of
+Social Services | Joplin, MO</p>
+</div>
+<span class="text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded
+font-bold mt-2 md:mt-0">July 2014 – September 2016</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Skills & Expertise -->
+<section class="p-6 rounded-lg border border-slate-200 bg-slate-50">
+<h2 class="text-2xl font-bold text-primary border-b-2 border-accent pb-2
+mb-4">Skills & Expertise</h2>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-primary text-white text-xs font-bold
+rounded">Organizational Change Management (OCM)</span>
+<span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">Public
+Administration</span>
+<span class="px-3 py-1 bg-primary text-white text-xs font-bold
+rounded">Enterprise Training Design</span>
+<span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">Six
+Sigma Green Belt</span>
+<span class="px-3 py-1 bg-primary text-white text-xs font-bold
+rounded">Executive Leadership</span>
+<span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">ADDIE
+Frameworks</span>
+<span class="px-3 py-1 bg-primary text-white text-xs font-bold
+rounded">Instructional Design</span>
+<span class="px-3 py-1 bg-primary text-white text-xs font-bold
+rounded">Medicaid & Health Policy</span>
+<span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">Oracle
+Cloud & ERP SCM</span>
+<span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">Project
+Budgeting & PMBOK</span>
+<span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">User
+Acceptance Testing (UAT)</span>
+<span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">Python
+& Web Development</span>
+<span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">Tableau
+Dashboards & Analytics</span>
+<span class="px-3 py-1 bg-primary text-white text-xs font-bold
+rounded">Strategic Workforce Planning</span>
+<span class="px-3 py-1 bg-primary text-white text-xs font-bold
+rounded">Process Improvement & Lean Six Sigma</span>
+<span class="px-3 py-1 bg-primary text-white text-xs font-bold
+rounded">Regulatory Analysis & Compliance</span>
+<span class="px-3 py-1 bg-primary text-white text-xs font-bold
+rounded">Cross-Functional Team Leadership</span>
+<span class="px-3 py-1 bg-primary text-white text-xs font-bold
+rounded">Technical Writing & Storyboarding</span>
+<span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">GIS
+Mapping & Boundary Config</span>
+<span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded">JIRA
+Complexity Scoring</span>
+</div>
+</section>
+<!-- Sample Portfolio Work -->
+<section class="p-6 rounded-lg border border-slate-200 bg-slate-50">
+<h2 class="text-2xl font-bold text-primary border-b-2 border-accent pb-2
+mb-6">Sample Portfolio Work</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Portfolio Category Card 1: Training & Development and OCM -->
+<div class="bg-white rounded-lg border border-slate-200 shadow-md p-5 flex
+flex-col justify-between">
+<div>
+<h3 class="text-lg font-extrabold text-primary mb-2">Training & Development and OCM</h3>
+<p class="text-xs text-slate-600 mb-4 font-semibold">Enterprise-wide transformation, readiness tracking, and stakeholder impact mapping.</p>
+<details class="group bg-slate-50 rounded border border-slate-200
+overflow-hidden">
+<summary class="flex justify-between items-center p-3 cursor-pointer
+font-bold text-slate-800 text-xs bg-slate-200/70 hover:bg-slate-200">
+<span>Projects</span>
+<span class="transition group-open:rotate-180">▼</span>
+</summary>
+<div class="p-3 space-y-3 bg-white border-t border-slate-200 text-xs">
+<!-- Training and Development Project -->
+<details class="group/proj bg-slate-50 rounded border border-slate-200">
+<summary class="flex justify-between items-center p-2
+cursor-pointer font-bold text-primary hover:bg-slate-100">
+<span>Training and Development</span>
+<span class="transition group-open/proj:rotate-180">▼</span>
+</summary>
+<ul class="p-2 space-y-1.5 bg-white border-t border-slate-200
+text-slate-700">
+<li>• <a href="https://sunny-snickerdoodle-e2b319.netlify.app/"
+target="_blank" class="text-primary underline font-semibold hover:text-accent">Missouri Bail Bond & Surety Recovery Agent 101 Interactive Training</a></li>
+<li>• <a href="https://docs.google.com/forms/d/e/1FAIpQLSexgL0pbgws8USt7aW4fIRUt7AvwTuZFTtSY-hSA9qsL0NF9g/viewform?usp=publish-editor"
+target="_blank" class="text-primary underline font-semibold hover:text-accent">Bail Bond & Surety Recovery Agent 101 Training Survey</a></li>
+<li>• <a href="Missouri_Surety_training presentation.pptx.pdf"
+target="_blank" class="text-primary underline font-semibold hover:text-accent">Missouri Surety Training Presentation</a></li>
+<li>• <a href="5-PHASE TRAINING STRATEGY, IMPLEMENTATION ROADMAP, AND KIRKPATRICK EVALUATION MASTER GUIDE.pdf"
+target="_blank" class="text-primary underline font-semibold hover:text-accent">5-PHASE TRAINING STRATEGY, IMPLEMENTATION ROADMAP, AND KIRKPATRICK EVALUATION MASTER GUIDE</a></li>
+<li>• <a href="Missouri_Recovery_Agent_Curriculum_Framework.png"
+target="_blank" class="text-primary underline font-semibold hover:text-accent">5-Phase Missouri Bail Bond Training Blueprint</a></li>
+<li>• <a href="Missouri Bail Bond Training Plan Gantt.png"
+target="_blank" class="text-primary underline font-semibold hover:text-accent">Missouri Bail Bond Training Plan Gantt</a></li>
+<li>• <a href="missouri_bail_bond_student_textbook-v8.docx (1) (1).pdf" target="_blank" class="text-primary underline font-semibold
+hover:text-accent">Comprehensive Pre-Licensing Curriculum, Statutory Commentary & Field
+Operations Manual (Student Edition)</a></li>
+<li>• <a href="missouri_bail_bond_instructor_textbook-.pdf"
+target="_blank" class="text-primary underline font-semibold hover:text-accent">Comprehensive
+Pre-Licensing Curriculum, Statutory Commentary & Field Operations Manual (Instructor
+Edition)</a></li>
+</ul>
+</details>
+</div>
+</details>
+</div>
+</div>
+<!-- Portfolio Category Card 2: Public Policy & Legislation -->
+<div class="bg-white rounded-lg border border-slate-200 shadow-md p-5 flex
+flex-col justify-between">
+<div>
+<h3 class="text-lg font-extrabold text-primary mb-2">Public Policy &
+Legislation</h3>
+<p class="text-xs text-slate-600 mb-4 font-semibold">APA-formatted policy
+reports, legislative models, and administrative proposals.</p>
+<details class="group bg-slate-50 rounded border border-slate-200
+overflow-hidden">
+<summary class="flex justify-between items-center p-3 cursor-pointer
+font-bold text-slate-800 text-xs bg-slate-200/70 hover:bg-slate-200">
+<span>Projects</span>
+<span class="transition group-open:rotate-180">▼</span>
+</summary>
+<div class="p-3 space-y-3 bg-white border-t border-slate-200 text-xs">
+<details class="group/proj bg-slate-50 rounded border border-slate-200">
+<summary class="flex justify-between items-center p-2
+cursor-pointer font-bold text-primary hover:bg-slate-100">
+<span>Brief on State HR Modernization</span>
+<span class="transition group-open/proj:rotate-180">▼</span>
+</summary>
+<ul class="p-2 space-y-1 bg-white border-t border-slate-200
+text-slate-700">
+<li>• <a
+href="https://open.spotify.com/show/7eXU58gpztKVVNQWnefBWY?si=0d8761b22f274e6d"
+target="_blank" class="text-primary underline font-semibold hover:text-accent">State HR
+Modernization Podcast Brief (Spotify)</a></li>
+</ul>
+</details>
+</div>
+</details>
+</div>
+</div>
+<!-- Portfolio Category Card 3: Software & Custom Tools -->
+<div class="bg-white rounded-lg border border-slate-200 shadow-md p-5 flex
+flex-col justify-between">
+<div>
+<h3 class="text-lg font-extrabold text-primary mb-2">Software & Custom
+Tools</h3>
+<p class="text-xs text-slate-600 mb-4 font-semibold">Web tools, database
+integrations, and GIS/mapping boundary configurations.</p>
+<details class="group bg-slate-50 rounded border border-slate-200
+overflow-hidden">
+<summary class="flex justify-between items-center p-3 cursor-pointer
+font-bold text-slate-800 text-xs bg-slate-200/70 hover:bg-slate-200">
+<span>Projects</span>
+<span class="transition group-open:rotate-180">▼</span>
+</summary>
+<div class="p-3 space-y-3 bg-white border-t border-slate-200 text-xs">
+<details class="group/proj bg-slate-50 rounded border border-slate-200">
+<summary class="flex justify-between items-center p-2
+cursor-pointer font-bold text-primary hover:bg-slate-100">
+<span>Bail Bond Enterprise</span>
+<span class="transition group-open/proj:rotate-180">▼</span>
+</summary>
+<ul class="p-2 space-y-1 bg-white border-t border-slate-200
+text-slate-700">
+<li>• <a href="https://krystal-bail-bonds.vercel.app/"
+target="_blank" class="text-primary underline font-semibold hover:text-accent">Bail Bond
+Enterprise Application (Vercel)</a></li>
+</ul>
+</details>
+</div>
+</details>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-primary text-white py-6 text-center text-sm border-t-4 border-accent
+font-medium">
+<p>&copy; 2026 Travis John Griffin, MPA. All rights reserved.</p>
+</footer>
+</div>
+</div>
 </body>
 </html>
